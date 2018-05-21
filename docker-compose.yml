@@ -1,0 +1,7 @@
+version: "3"
+services:
+  scratch:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: empty-image:0.0.1
